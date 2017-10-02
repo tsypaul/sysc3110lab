@@ -51,7 +51,6 @@ public class BuddyInfo {
 	public static void main(String[] args) {
 		BuddyInfo b = new BuddyInfo("Kris", "her address","her number");
 		System.out.println("Hello " + b.getName() + "!!! How are you?");
-		System.out.println("I bought you something...");
 		AddressBook addressBook = new AddressBook();
 		addressBook.addBuddy(b);
 		addressBook.removeBuddy("");
